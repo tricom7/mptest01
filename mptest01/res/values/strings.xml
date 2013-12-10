@@ -3,6 +3,10 @@
 
     <string name="app_name">mptest01</string>
     <string name="action_settings">Settings</string>
-    <string name="hello_world">Hello world!</string>
+    <!-- <string name="hello_world">Hello world!</string> -->
 
+    <string name="hello">H</string>
+    <string name="strplay">P</string>
+    <string name="strStop">S</string>
+    
 </resources>

@@ -1,4 +1,36 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical" >
+    
+	<TextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/hello" />
+	
+	<Button
+		android:id="@+id/buttonPlay"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/strplay" />
+	
+	<TextView
+		android:id="@+id/textView1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text=""
+		android:textAppearance="?android:attr/textAppearanceLarge" />
+	
+	<Button
+		android:id="@+id/buttonStop"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/strStop" />
+</LinearLayout>
+
+
+<!-- <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -9,8 +41,32 @@
     tools:context=".MainActivity" >
 
     <TextView
+        android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/hello_world" />
 
-</RelativeLayout>
+    <Button
+        android:id="@+id/btn_audio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="32dp"
+        android:text="p" />
+
+    <Button
+        android:id="@+id/btn_stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btn_audio"
+        android:layout_alignBottom="@+id/btn_audio"
+        android:layout_marginLeft="40dp"
+        android:layout_toRightOf="@+id/btn_audio"
+        android:text="s" />
+
+</RelativeLayout> -->
+
+
+
